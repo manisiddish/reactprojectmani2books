@@ -1,12 +1,41 @@
-# React + Vite
+# Online Library System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Online Library System built with React and Redux, featuring book categories, browsing, searching, adding new books, and detailed views.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Home Page with welcome message, book categories, and popular books  
+- Browse Books page with category filtering and search functionality  
+- Book Details page with detailed info and back navigation  
+- Add Book page with form validation and Redux state management  
+- 404 Page for handling undefined routes  
+- Navigation bar for easy access to main pages  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+- `/src/components` – React components for pages and UI  
+- `/src/redux` – Redux slices and store setup  
+- `/src/App.jsx` – Main router and app setup  
+- `/public` – Static assets  
+- `README.md` – This file  
+
+---
+
+## How to Run the Application
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/download/) (v14 or higher recommended)  
+- npm (comes with Node.js) or yarn installed  
+
+### Steps
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/manisiddish/reactprojectmani2books.git
+
+Run the commands
+npm install
+npm run dev     
