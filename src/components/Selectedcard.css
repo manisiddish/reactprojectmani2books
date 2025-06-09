@@ -1,0 +1,67 @@
+.main5 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: 50px;
+  gap: 30px;
+  max-width: 90vw;       /* Use viewport width instead of fixed vh */
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start; /* Align items to top */
+  background-color: #f9f9f9; /* subtle background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Image styling */
+.main5 > div:first-child img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Details container */
+.main5 > div:last-child {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Headings and paragraphs */
+.main5 h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #222;
+}
+
+.main5 p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .main5 {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 60px;
+    max-width: 90vw;
+  }
+
+  .main5 > div:first-child img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .main5 > div:last-child {
+    max-width: 100%;
+    padding-top: 20px;
+  }
+}

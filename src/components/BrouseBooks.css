@@ -1,0 +1,18 @@
+.m{
+ margin-top: 100px;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+ width: 600px;
+}
+.input{
+    border-radius: 2px;
+    border-color: black;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

@@ -1,0 +1,11 @@
+.main1{
+    margin: 100px;
+    
+}
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 50px;
+}
